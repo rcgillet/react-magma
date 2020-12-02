@@ -1,0 +1,54 @@
+import * as React from 'react';
+import { IconProps } from '../../iconProps';
+import { renderIcon } from '../../SvgIcon';
+
+const iconType = {
+  "width": "24px",
+  "height": "24px",
+  "viewBox": "0 0 24 24",
+  "version": "1.1",
+  "xmlns": "http://www.w3.org/2000/svg",
+  "xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "title": [
+    "close_fullscreen"
+  ],
+  "paths": [
+    {
+      "d": "M21.29,4.11999997 L16.7,8.70999999 L18.29,10.3 C18.92,10.93 18.47,12.01 17.58,12.01 L13,12.01 C12.45,12.01 12,11.56 12,11.01 L12,6.40999998 C12,5.51999997 13.08,5.06999997 13.71,5.69999997 L15.3,7.28999998 L19.89,2.69999996 C20.28,2.30999996 20.91,2.30999996 21.3,2.69999996 L21.3,2.69999996 C21.68,3.09999996 21.68,3.72999997 21.29,4.11999997 Z M4.11999997,21.29 L8.70999999,16.7 L10.3,18.29 C10.93,18.92 12.01,18.47 12.01,17.58 L12.01,13 C12.01,12.45 11.56,12 11.01,12 L6.40999998,12 C5.51999997,12 5.06999997,13.08 5.69999997,13.71 L7.28999998,15.3 L2.69999996,19.89 C2.30999996,20.28 2.30999996,20.91 2.69999996,21.3 L2.69999996,21.3 C3.09999996,21.68 3.72999997,21.68 4.11999997,21.29 Z",
+      "id": "path-1"
+    }
+  ],
+  "polygons": [],
+  "groups": [
+    {
+      "id": "close_fullscreen",
+      "stroke": "none",
+      "stroke-width": "1",
+      "fill": "none",
+      "fill-rule": "evenodd",
+      "masks": [
+        {
+          "id": "mask-2",
+          "fill": "white",
+          "uses": [
+            {
+              "xlink:href": "#path-1"
+            }
+          ]
+        }
+      ],
+      "uses": [
+        {
+          "id": "Combined-Shape",
+          "fill": "#000000",
+          "xlink:href": "#path-1"
+        }
+      ]
+    }
+  ]
+};
+
+export const ActionsCloseFullscreenIcon: React.FunctionComponent<IconProps> = (
+    props: IconProps
+) => renderIcon(props, iconType);
+    

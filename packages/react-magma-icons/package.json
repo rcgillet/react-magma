@@ -18,7 +18,8 @@
     "test-watch": "tsdx test --watch",
     "build": "tsdx build",
     "build-watch": "tsdx watch",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "generate": "node ./scripts/generate.js"
   },
   "publishConfig": {
     "registry": "http://nexus.mindtap.corp.web/content/repositories/npm.cengage/"
@@ -41,7 +42,9 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-plugin-unicorn": "^22.0.0",
-    "tsdx": "^0.13.2"
+    "mkdirp": "^1.0.4",
+    "tsdx": "^0.13.2",
+    "xml2js": "^0.4.23"
   },
   "dependencies": {
     "@types/react": "^16.9.0",
