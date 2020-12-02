@@ -15,9 +15,9 @@ interface Polygon {
 }
 
 interface Use {
-  id?: string,
-  fill?: string,
-  "xlink:href": string,
+  id?: string;
+  fill?: string;
+  'xlink:href': string;
 }
 
 interface Mask {
@@ -29,9 +29,9 @@ interface Mask {
 interface Group {
   id?: string;
   stroke?: string;
-  "stroke-width"?: string;
+  'stroke-width'?: string;
   fill?: string;
-  "fill-rule"?: string;
+  'fill-rule'?: string;
   masks?: Mask[];
   uses?: Use[];
 }
@@ -63,9 +63,7 @@ function useGenerateId(newId?: string) {
 }
 
 function renderPaths(paths: Path[]) {
-  return paths.map(({ ...props }, index) => (
-    <path key={index}{...props} />
-  ));
+  return paths.map(({ ...props }, index) => <path key={index} {...props} />);
 }
 
 function renderPolygons(polygons: Polygon[]) {
@@ -92,18 +90,25 @@ function renderMasks(masks: Mask[]) {
 }
 
 function renderUses(uses: Use[]) {
-  return uses.map(({ ...props }, index) => (
-    <use key={index} {...props}>
-    </use>
-  ));
+  return uses.map(({ ...props }, index) => <use key={index} {...props}></use>);
 }
 
 export const SvgIcon: React.FunctionComponent<SvgIconProps> = (
   props: SvgIconProps
 ) => {
-  const { id: defaultId, color, size, title, testId, paths, groups, polygons, ...other } = props;
+  const {
+    id: defaultId,
+    color,
+    size,
+    title,
+    testId,
+    paths,
+    groups,
+    polygons,
+    ...other
+  } = props;
   const id = useGenerateId(defaultId);
-  
+
   const attributes = {
     ...{
       className: 'icon',
@@ -111,19 +116,17 @@ export const SvgIcon: React.FunctionComponent<SvgIconProps> = (
       width: size || defaultSize,
       fill: color || 'currentColor',
       xmlns: 'http://www.w3.org/2000/svg',
-      'data-testid': {testId}
+      'data-testid': testId,
     },
-    ...other
-  }
+    ...other,
+  };
 
-  if(title) {
-    attributes['aria-labelledby'] = id
+  if (title) {
+    attributes['aria-labelledby'] = id;
   }
 
   return (
-    <svg
-      {...attributes}
-    >
+    <svg {...attributes}>
       {title && <title id={id}>{title}</title>}
       {paths?.length && renderPaths(paths)}
       {groups?.length && renderGroups(groups)}

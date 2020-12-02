@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "donut_small"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['donut_small'],
+  paths: [
     {
-      "d": "M11,9.15999999 L11,1.99999996 C5.99999996,2.49999996 1.99999996,6.78999998 1.99999996,12 C1.99999996,17.21 5.99999996,21.5 11,22 L11,14.84 C9.99999996,14.43 8.99999996,13.32 8.99999996,12 C8.99999996,10.68 9.99999996,9.56999999 11,9.15999999 Z M14.86,11 L22,11 C21.52,6.24999998 18,2.46999996 13,1.99999996 L13,9.15999999 C14,9.45999999 14.52,10.14 14.86,11 Z M13,14.84 L13,22 C18,21.53 21.52,17.75 22,13 L14.86,13 C14.52,13.86 14,14.54 13,14.84 Z",
-      "id": "path-1"
-    }
+      d:
+        'M11,9.15999999 L11,1.99999996 C5.99999996,2.49999996 1.99999996,6.78999998 1.99999996,12 C1.99999996,17.21 5.99999996,21.5 11,22 L11,14.84 C9.99999996,14.43 8.99999996,13.32 8.99999996,12 C8.99999996,10.68 9.99999996,9.56999999 11,9.15999999 Z M14.86,11 L22,11 C21.52,6.24999998 18,2.46999996 13,1.99999996 L13,9.15999999 C14,9.45999999 14.52,10.14 14.86,11 Z M13,14.84 L13,22 C18,21.53 21.52,17.75 22,13 L14.86,13 C14.52,13.86 14,14.54 13,14.84 Z',
+      id: 'ActionsDonutSmallIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "donut_small",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'donut_small',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'ActionsDonutSmallIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#ActionsDonutSmallIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#ActionsDonutSmallIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const ActionsDonutSmallIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

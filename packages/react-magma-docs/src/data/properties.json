@@ -4039,20 +4039,12 @@
       "typeArguments": [
         {
           "type": "reference",
-<<<<<<< Updated upstream
-          "id": 11316,
-=======
-          "id": 11293,
->>>>>>> Stashed changes
+          "id": 11294,
           "name": "NavTabChildrenProps"
         },
         {
           "type": "reference",
-<<<<<<< Updated upstream
-          "id": 11582,
-=======
-          "id": 11559,
->>>>>>> Stashed changes
+          "id": 11560,
           "name": "NavTabComponentProps"
         }
       ],

@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "invert_colors"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['invert_colors'],
+  paths: [
     {
-      "d": "M6.33999998,7.92999998 C3.21999996,11.05 3.21999996,16.12 6.33999998,19.24 C7.89999998,20.8 9.94999999,21.58 12,21.58 C14.05,21.58 16.1,20.8 17.66,19.24 C20.78,16.12 20.78,11.05 17.66,7.92999998 L12.71,2.97999996 C12.32,2.58999996 11.69,2.58999996 11.3,2.97999996 L6.33999998,7.92999998 Z M12,19.59 C10.4,19.59 8.88999999,18.97 7.75999998,17.83 C6.61999998,16.69 5.99999997,15.19 5.99999997,13.59 C5.99999997,11.99 6.61999998,10.48 7.75999998,9.34999999 L12,5.09999997 L12,19.59 Z",
-      "id": "path-1"
-    }
+      d:
+        'M6.33999998,7.92999998 C3.21999996,11.05 3.21999996,16.12 6.33999998,19.24 C7.89999998,20.8 9.94999999,21.58 12,21.58 C14.05,21.58 16.1,20.8 17.66,19.24 C20.78,16.12 20.78,11.05 17.66,7.92999998 L12.71,2.97999996 C12.32,2.58999996 11.69,2.58999996 11.3,2.97999996 L6.33999998,7.92999998 Z M12,19.59 C10.4,19.59 8.88999999,18.97 7.75999998,17.83 C6.61999998,16.69 5.99999997,15.19 5.99999997,13.59 C5.99999997,11.99 6.61999998,10.48 7.75999998,9.34999999 L12,5.09999997 L12,19.59 Z',
+      id: 'ActionsInvertColorsIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "invert_colors",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'invert_colors',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'ActionsInvertColorsIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#ActionsInvertColorsIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#ActionsInvertColorsIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const ActionsInvertColorsIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

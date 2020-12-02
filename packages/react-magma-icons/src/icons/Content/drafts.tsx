@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "drafts"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['drafts'],
+  paths: [
     {
-      "d": "M21.99,7.99999998 C21.99,7.27999998 21.62,6.64999998 21.05,6.29999998 L13.01,1.58999996 C12.39,1.21999996 11.61,1.21999996 10.99,1.58999996 L2.94999996,6.29999998 C2.37999996,6.64999998 1.99999996,7.27999998 1.99999996,7.99999998 L1.99999996,18 C1.99999996,19.1 2.89999996,20 3.99999996,20 L20,20 C21.1,20 22,19.1 22,18 L21.99,7.99999998 Z M10.94,12.34 L3.73999997,7.83999998 L10.99,3.58999996 C11.61,3.21999996 12.39,3.21999996 13.01,3.58999996 L20.26,7.83999998 L13.06,12.34 C12.41,12.74 11.59,12.74 10.94,12.34 Z",
-      "id": "path-1"
-    }
+      d:
+        'M21.99,7.99999998 C21.99,7.27999998 21.62,6.64999998 21.05,6.29999998 L13.01,1.58999996 C12.39,1.21999996 11.61,1.21999996 10.99,1.58999996 L2.94999996,6.29999998 C2.37999996,6.64999998 1.99999996,7.27999998 1.99999996,7.99999998 L1.99999996,18 C1.99999996,19.1 2.89999996,20 3.99999996,20 L20,20 C21.1,20 22,19.1 22,18 L21.99,7.99999998 Z M10.94,12.34 L3.73999997,7.83999998 L10.99,3.58999996 C11.61,3.21999996 12.39,3.21999996 13.01,3.58999996 L20.26,7.83999998 L13.06,12.34 C12.41,12.74 11.59,12.74 10.94,12.34 Z',
+      id: 'ContentDraftsIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "drafts",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'drafts',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'ContentDraftsIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#ContentDraftsIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#ContentDraftsIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const ContentDraftsIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

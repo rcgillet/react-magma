@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "crop_landscape"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['crop_landscape'],
+  paths: [
     {
-      "d": "M19,4.99999997 L4.99999996,4.99999997 C3.89999997,4.99999997 2.99999996,5.89999997 2.99999996,6.99999997 L2.99999996,17 C2.99999996,18.1 3.89999997,19 4.99999996,19 L19,19 C20.1,19 21,18.1 21,17 L21,6.99999997 C21,5.89999997 20.1,4.99999997 19,4.99999997 Z M18,17 L5.99999997,17 C5.44999997,17 4.99999997,16.55 4.99999997,16 L4.99999997,7.99999998 C4.99999997,7.44999998 5.44999997,6.99999998 5.99999997,6.99999998 L18,6.99999998 C18.55,6.99999998 19,7.44999998 19,7.99999998 L19,16 C19,16.55 18.55,17 18,17 Z",
-      "id": "path-1"
-    }
+      d:
+        'M19,4.99999997 L4.99999996,4.99999997 C3.89999997,4.99999997 2.99999996,5.89999997 2.99999996,6.99999997 L2.99999996,17 C2.99999996,18.1 3.89999997,19 4.99999996,19 L19,19 C20.1,19 21,18.1 21,17 L21,6.99999997 C21,5.89999997 20.1,4.99999997 19,4.99999997 Z M18,17 L5.99999997,17 C5.44999997,17 4.99999997,16.55 4.99999997,16 L4.99999997,7.99999998 C4.99999997,7.44999998 5.44999997,6.99999998 5.99999997,6.99999998 L18,6.99999998 C18.55,6.99999998 19,7.44999998 19,7.99999998 L19,16 C19,16.55 18.55,17 18,17 Z',
+      id: 'ImageCropLandscapeIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "crop_landscape",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'crop_landscape',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'ImageCropLandscapeIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#ImageCropLandscapeIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#ImageCropLandscapeIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const ImageCropLandscapeIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

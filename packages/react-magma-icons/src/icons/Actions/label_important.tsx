@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "label_important"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['label_important'],
+  paths: [
     {
-      "d": "M5.93999997,18.99 L15,18.99 C15.65,18.99 16.26,18.68 16.63,18.15 L20.58,12.58 C20.83,12.23 20.83,11.77 20.58,11.42 L16.62,5.83999997 C16.26,5.30999997 15.65,4.99999997 15,4.99999997 L5.93999997,4.99999997 C5.12999997,4.99999997 4.65999997,5.92999997 5.12999997,6.58999998 L8.99999999,12 L5.12999997,17.41 C4.65999997,18.07 5.12999997,18.99 5.93999997,18.99 L5.93999997,18.99 Z",
-      "id": "path-1"
-    }
+      d:
+        'M5.93999997,18.99 L15,18.99 C15.65,18.99 16.26,18.68 16.63,18.15 L20.58,12.58 C20.83,12.23 20.83,11.77 20.58,11.42 L16.62,5.83999997 C16.26,5.30999997 15.65,4.99999997 15,4.99999997 L5.93999997,4.99999997 C5.12999997,4.99999997 4.65999997,5.92999997 5.12999997,6.58999998 L8.99999999,12 L5.12999997,17.41 C4.65999997,18.07 5.12999997,18.99 5.93999997,18.99 L5.93999997,18.99 Z',
+      id: 'ActionsLabelImportantIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "label_important",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'label_important',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'ActionsLabelImportantIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#ActionsLabelImportantIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#ActionsLabelImportantIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const ActionsLabelImportantIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

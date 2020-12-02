@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "functions"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['functions'],
+  paths: [
     {
-      "d": "M16.5,3.99999997 L7.55999998,3.99999997 C6.69999998,3.99999997 5.99999998,4.69999997 5.99999998,5.55999997 C5.99999998,5.83999997 6.11999998,6.10999998 6.31999998,6.29999998 L12.5,12 L6.31999998,17.7 C6.11999998,17.89 5.99999998,18.16 5.99999998,18.44 C5.99999998,19.3 6.69999998,20 7.55999998,20 L16.5,20 C17.33,20 18,19.33 18,18.5 C18,17.67 17.33,17 16.5,17 L11,17 L14.59,13.41 C15.37,12.63 15.37,11.36 14.59,10.58 L11,6.99999997 L16.5,6.99999997 C17.33,6.99999997 18,6.32999998 18,5.49999997 C18,4.66999997 17.33,3.99999997 16.5,3.99999997 Z",
-      "id": "path-1"
-    }
+      d:
+        'M16.5,3.99999997 L7.55999998,3.99999997 C6.69999998,3.99999997 5.99999998,4.69999997 5.99999998,5.55999997 C5.99999998,5.83999997 6.11999998,6.10999998 6.31999998,6.29999998 L12.5,12 L6.31999998,17.7 C6.11999998,17.89 5.99999998,18.16 5.99999998,18.44 C5.99999998,19.3 6.69999998,20 7.55999998,20 L16.5,20 C17.33,20 18,19.33 18,18.5 C18,17.67 17.33,17 16.5,17 L11,17 L14.59,13.41 C15.37,12.63 15.37,11.36 14.59,10.58 L11,6.99999997 L16.5,6.99999997 C17.33,6.99999997 18,6.32999998 18,5.49999997 C18,4.66999997 17.33,3.99999997 16.5,3.99999997 Z',
+      id: 'EditorFunctionsIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "functions",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'functions',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'EditorFunctionsIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#EditorFunctionsIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#EditorFunctionsIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const EditorFunctionsIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

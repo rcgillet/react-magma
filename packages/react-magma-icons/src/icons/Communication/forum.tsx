@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "forum"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['forum'],
+  paths: [
     {
-      "d": "M20,5.99999997 L19,5.99999997 L19,14 C19,14.55 18.55,15 18,15 L5.99999998,15 L5.99999998,16 C5.99999998,17.1 6.89999998,18 7.99999998,18 L18,18 L22,22 L22,7.99999997 C22,6.89999998 21.1,5.99999997 20,5.99999997 Z M17,11 L17,3.99999996 C17,2.89999996 16.1,1.99999996 15,1.99999996 L3.99999996,1.99999996 C2.89999996,1.99999996 1.99999996,2.89999996 1.99999996,3.99999996 L1.99999996,17 L5.99999996,13 L15,13 C16.1,13 17,12.1 17,11 Z",
-      "id": "path-1"
-    }
+      d:
+        'M20,5.99999997 L19,5.99999997 L19,14 C19,14.55 18.55,15 18,15 L5.99999998,15 L5.99999998,16 C5.99999998,17.1 6.89999998,18 7.99999998,18 L18,18 L22,22 L22,7.99999997 C22,6.89999998 21.1,5.99999997 20,5.99999997 Z M17,11 L17,3.99999996 C17,2.89999996 16.1,1.99999996 15,1.99999996 L3.99999996,1.99999996 C2.89999996,1.99999996 1.99999996,2.89999996 1.99999996,3.99999996 L1.99999996,17 L5.99999996,13 L15,13 C16.1,13 17,12.1 17,11 Z',
+      id: 'CommunicationForumIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "forum",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'forum',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'CommunicationForumIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#CommunicationForumIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#CommunicationForumIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const CommunicationForumIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

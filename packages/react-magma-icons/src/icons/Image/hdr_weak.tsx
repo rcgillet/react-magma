@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "hdr_weak"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['hdr_weak'],
+  paths: [
     {
-      "d": "M4.99999995,7.99999998 C2.78999996,7.99999998 0.999999954,9.78999999 0.999999954,12 C0.999999954,14.21 2.78999996,16 4.99999995,16 C7.20999998,16 8.99999995,14.21 8.99999995,12 C8.99999995,9.78999999 7.20999998,7.99999998 4.99999995,7.99999998 Z M17,5.99999998 C13.69,5.99999998 11,8.68999999 11,12 C11,15.31 13.69,18 17,18 C20.31,18 23,15.31 23,12 C23,8.68999999 20.31,5.99999998 17,5.99999998 Z M17,16 C14.79,16 13,14.21 13,12 C13,9.78999999 14.79,7.99999998 17,7.99999998 C19.21,7.99999998 21,9.78999999 21,12 C21,14.21 19.21,16 17,16 Z",
-      "id": "path-1"
-    }
+      d:
+        'M4.99999995,7.99999998 C2.78999996,7.99999998 0.999999954,9.78999999 0.999999954,12 C0.999999954,14.21 2.78999996,16 4.99999995,16 C7.20999998,16 8.99999995,14.21 8.99999995,12 C8.99999995,9.78999999 7.20999998,7.99999998 4.99999995,7.99999998 Z M17,5.99999998 C13.69,5.99999998 11,8.68999999 11,12 C11,15.31 13.69,18 17,18 C20.31,18 23,15.31 23,12 C23,8.68999999 20.31,5.99999998 17,5.99999998 Z M17,16 C14.79,16 13,14.21 13,12 C13,9.78999999 14.79,7.99999998 17,7.99999998 C19.21,7.99999998 21,9.78999999 21,12 C21,14.21 19.21,16 17,16 Z',
+      id: 'ImageHdrWeakIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "hdr_weak",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'hdr_weak',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'ImageHdrWeakIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#ImageHdrWeakIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#ImageHdrWeakIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const ImageHdrWeakIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

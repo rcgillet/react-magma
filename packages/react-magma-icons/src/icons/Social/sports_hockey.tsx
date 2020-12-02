@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "sports_hockey"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['sports_hockey'],
+  paths: [
     {
-      "d": "M3.99999996,16 L3.99999996,20 L1.99999996,20 L1.99999996,17 C1.99999996,16.45 2.44999996,16 2.99999996,16 L2.99999996,16 L3.99999996,16 Z M9.85999999,14.06 L11.45,17.54 L10.58,19.44 C10.41,19.78 10.07,19.99 9.68999999,19.99 L9.68999999,19.99 L4.99999997,20 L4.99999997,16 L8.99999997,16 L9.85999999,14.06 Z M21,16 C21.28,16 21.53,16.11 21.71,16.29 C21.89,16.47 22,16.72 22,17 L22,17 L22,20 L20,20 L20,16 Z M9.69999999,3.99999997 L12,9.20999999 L12.05,9.06999999 L12.54,7.96999998 L14.3,3.99999997 L17.65,3.99999997 L13.6,12.84 L15,16 L19,16 L19,20 L14.31,19.99 C13.93,19.99 13.59,19.78 13.42,19.44 L13.42,19.44 L12,16.34 L11.92,16.16 L10.4,12.84 L6.34999998,3.99999997 L9.69999999,3.99999997 Z",
-      "id": "path-1"
-    }
+      d:
+        'M3.99999996,16 L3.99999996,20 L1.99999996,20 L1.99999996,17 C1.99999996,16.45 2.44999996,16 2.99999996,16 L2.99999996,16 L3.99999996,16 Z M9.85999999,14.06 L11.45,17.54 L10.58,19.44 C10.41,19.78 10.07,19.99 9.68999999,19.99 L9.68999999,19.99 L4.99999997,20 L4.99999997,16 L8.99999997,16 L9.85999999,14.06 Z M21,16 C21.28,16 21.53,16.11 21.71,16.29 C21.89,16.47 22,16.72 22,17 L22,17 L22,20 L20,20 L20,16 Z M9.69999999,3.99999997 L12,9.20999999 L12.05,9.06999999 L12.54,7.96999998 L14.3,3.99999997 L17.65,3.99999997 L13.6,12.84 L15,16 L19,16 L19,20 L14.31,19.99 C13.93,19.99 13.59,19.78 13.42,19.44 L13.42,19.44 L12,16.34 L11.92,16.16 L10.4,12.84 L6.34999998,3.99999997 L9.69999999,3.99999997 Z',
+      id: 'SocialSportsHockeyIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "sports_hockey",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'sports_hockey',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'SocialSportsHockeyIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#SocialSportsHockeyIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#SocialSportsHockeyIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const SocialSportsHockeyIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    

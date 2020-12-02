@@ -3,52 +3,50 @@ import { IconProps } from '../../iconProps';
 import { renderIcon } from '../../SvgIcon';
 
 const iconType = {
-  "width": "24px",
-  "height": "24px",
-  "viewBox": "0 0 24 24",
-  "version": "1.1",
-  "xmlns": "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  "title": [
-    "roofing"
-  ],
-  "paths": [
+  width: '24px',
+  height: '24px',
+  viewBox: '0 0 24 24',
+  version: '1.1',
+  xmlns: 'http://www.w3.org/2000/svg',
+  xmlnsXlink: 'http://www.w3.org/1999/xlink',
+  title: ['roofing'],
+  paths: [
     {
-      "d": "M13,18 L11,18 L11,16 L13,16 L13,18 Z M8.99999999,15 L8.99999999,19 C8.99999999,19.55 9.44999999,20 9.99999999,20 L14,20 C14.55,20 15,19.55 15,19 L15,15 C15,14.45 14.55,14 14,14 L9.99999999,14 C9.44999999,14 8.99999999,14.45 8.99999999,15 Z M19,9.29999999 L19,9.29999999 L19,4.99999997 C19,4.44999997 18.55,3.99999997 18,3.99999997 L17,3.99999997 C16.45,3.99999997 16,4.44999997 16,4.99999997 L16,6.59999998 L16,6.59999998 L12.67,3.59999997 C12.29,3.25999996 11.71,3.25999996 11.33,3.59999997 L2.96999996,11.13 C2.62999996,11.43 2.83999996,12 3.29999996,12 L4.60999997,12 C4.85999997,12 5.09999997,11.91 5.27999997,11.74 L12,5.68999997 L18.71,11.74 C18.9,11.91 19.14,12 19.38,12 L20.69,12 C21.15,12 21.37,11.43 21.02,11.13 L19,9.29999999 Z",
-      "id": "path-1"
-    }
+      d:
+        'M13,18 L11,18 L11,16 L13,16 L13,18 Z M8.99999999,15 L8.99999999,19 C8.99999999,19.55 9.44999999,20 9.99999999,20 L14,20 C14.55,20 15,19.55 15,19 L15,15 C15,14.45 14.55,14 14,14 L9.99999999,14 C9.44999999,14 8.99999999,14.45 8.99999999,15 Z M19,9.29999999 L19,9.29999999 L19,4.99999997 C19,4.44999997 18.55,3.99999997 18,3.99999997 L17,3.99999997 C16.45,3.99999997 16,4.44999997 16,4.99999997 L16,6.59999998 L16,6.59999998 L12.67,3.59999997 C12.29,3.25999996 11.71,3.25999996 11.33,3.59999997 L2.96999996,11.13 C2.62999996,11.43 2.83999996,12 3.29999996,12 L4.60999997,12 C4.85999997,12 5.09999997,11.91 5.27999997,11.74 L12,5.68999997 L18.71,11.74 C18.9,11.91 19.14,12 19.38,12 L20.69,12 C21.15,12 21.37,11.43 21.02,11.13 L19,9.29999999 Z',
+      id: 'PlacesRoofingIcon-path-1',
+    },
   ],
-  "polygons": [],
-  "groups": [
+  polygons: [],
+  groups: [
     {
-      "id": "roofing",
-      "stroke": "none",
-      "stroke-width": "1",
-      "fill": "none",
-      "fill-rule": "evenodd",
-      "masks": [
+      id: 'roofing',
+      stroke: 'none',
+      strokeWidth: '1',
+      fill: 'none',
+      fillRule: 'evenodd',
+      masks: [
         {
-          "id": "mask-2",
-          "fill": "white",
-          "uses": [
+          id: 'PlacesRoofingIcon-mask-2',
+          fill: 'white',
+          uses: [
             {
-              "xlink:href": "#path-1"
-            }
-          ]
-        }
+              xlinkHref: '#PlacesRoofingIcon-path-1',
+            },
+          ],
+        },
       ],
-      "uses": [
+      uses: [
         {
-          "id": "Combined-Shape",
-          "fill": "#000000",
-          "xlink:href": "#path-1"
-        }
-      ]
-    }
-  ]
+          id: 'Combined-Shape',
+          fill: '#000000',
+          xlinkHref: '#PlacesRoofingIcon-path-1',
+        },
+      ],
+    },
+  ],
 };
 
 export const PlacesRoofingIcon: React.FunctionComponent<IconProps> = (
-    props: IconProps
+  props: IconProps
 ) => renderIcon(props, iconType);
-    
