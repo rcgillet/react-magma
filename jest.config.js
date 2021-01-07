@@ -7,6 +7,7 @@ module.exports = {
     '!**/react-magma-docs/**',
     '!**/react-magma-landing/**',
     '!**/react-magma-legacy-selects/**',
+    '!**/stories/**'
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageReporters: ['text'],
